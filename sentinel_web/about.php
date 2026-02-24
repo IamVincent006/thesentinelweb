@@ -1339,7 +1339,7 @@ $totalTimeline = count($timelineData);
             }, 300);
         }
 
-        // Close when clicking the "X"
+        // Close when clicking the "X
         if(closeBtn) {
             closeBtn.addEventListener("click", closeModal);
         }
