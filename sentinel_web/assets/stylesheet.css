@@ -1,0 +1,30 @@
+
+
+ .product-card-side {
+     background-color: #0080E4;
+     border-radius: 60px; /* Adjust border-radius as needed */
+     backdrop-filter: blur(10px) saturate(1.2); /* Blur background and increase saturation */
+     box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), /* Inner shadow for depth */
+     inset -10px -10px 20px rgba(255, 255, 255, 0.1); /* Inner highlight for shine */
+ }
+
+.product-card-center {
+    background-color: #CFE2FF;
+    border-radius: 60px; /* Adjust border-radius as needed */
+    backdrop-filter: blur(10px) saturate(1.2); /* Blur background and increase saturation */
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), /* Inner shadow for depth */
+    inset -10px -10px 20px rgba(255, 255, 255, 0.1); /* Inner highlight for shine */
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 60px; /* Adjust border-radius as needed */
+    backdrop-filter: blur(10px) saturate(1.2); /* Blur background and increase saturation */
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), /* Inner shadow for depth */
+    inset -10px -10px 20px rgba(255, 255, 255, 0.1); /* Inner highlight for shine */
+
+}
+
+ .splide__list {
+     list-style: none;
+ }

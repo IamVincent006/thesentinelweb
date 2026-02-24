@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "park_id": "12000000024",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 13:33:39",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000025",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 13:37:45",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000026",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 13:38:14",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000027",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 14:22:35",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000028",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 14:29:37",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000029",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 14:50:27",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000030",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 15:07:52",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000031",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 15:52:27",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "100",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000032",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 15:52:46",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "0",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000033",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 15:55:21",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "0",
+      "platenum": "",
+      "ratetype": "1"
+    },
+    {
+      "park_id": "12000000034",
+      "entry_termid": "1",
+      "entryarea_id": "1",
+      "entrydate": "2023-07-31 15:56:46",
+      "driver_image": null,
+      "vehicle_image": null,
+      "process": "0",
+      "platenum": "",
+      "ratetype": "1"
+    }
+  ]
+}

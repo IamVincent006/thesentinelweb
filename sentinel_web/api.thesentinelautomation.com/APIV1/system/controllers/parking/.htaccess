@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^url/(.*)/(.*)$ index.php?url=$1&id=$2
+</IfModule>
+<Files config.ini>
+Deny from all
+</Files>
+Options -Indexes

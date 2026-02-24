@@ -1,0 +1,303 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #5139f7;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.image-icons {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.sidebar-links {
+    padding-left: 10px;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #000;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #000;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 0;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+/* /Sidebar Styles */
+
+/* Top bar */
+
+.page-content-header{
+    padding: 3px;
+    font-weight: bold;
+}
+
+/* /Top Bar */
+
+/* Cards */
+
+.statistics-cards{
+    padding: 40px 20px;
+}
+
+.decoration-links {
+    text-decoration: none;
+    color: white;
+}
+
+.decoration-links:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.card-links {
+    text-decoration: none;
+    color: black;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* /Cards */
+
+/* Page Title */
+
+.page-title-wrapper {
+    display: flex;
+}
+
+.page-title-1, .page-title-2  {
+    padding-left: 20px;
+}
+
+.page-title-1 {
+    padding-top: 25px;
+}
+
+.page-title-2 {
+    padding-top: 40px;
+}
+
+.page-content-wrapper-inside {
+    background-color: #999999
+}
+
+/* /Page Title */
+
+/*fontawesome*/
+/* Styles go here */
+
+.tip {
+    position: relative;
+    float: left;
+    left: 20px;
+    
+}
+
+.help {
+    text-align: right;
+    display: block;
+}
+.tip-txt {
+    width: 145px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    background: #333;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fff;
+    transition: .5s ease-in-out;
+    box-sizing: border-box;
+    text-align: left;
+    transition: opacity .3s;
+}
+.fa {
+    font-size: 16px;
+    transition: .5s ease-in-out;
+}
+.fa-question-circle:hover + .tip-txt { 
+    visibility: visible;
+    color: white;
+    opacity: 1;
+}
+
+
+.row-1 {
+    background: #b8daff;
+}
+
+
+li.active a + a { display: none; }
+
+.boxes:before {
+    margin:  auto;
+}
+
+.boxes {
+    background-color: white;
+    width: 250px;
+    height: auto;
+    border-color: #0b5ed7;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    margin: 1px auto;*/
+
+}
+
+
+
+.boxes img {
+  
+  min-height: 100%;
+  min-width: 100%;
+
+
+}
+.imgheader {
+    
+    width: 80%;
+    margin: auto;
+ 
+}
+
+.boxes:hover {
+  
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+    
+
+  width: 30%;
+  height: 43%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10vh;
+  margin-left: 18vw;
+  pading:auto;
+
+
+}
+
+

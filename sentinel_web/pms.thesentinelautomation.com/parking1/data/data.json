@@ -1,0 +1,31 @@
+
+[
+  {
+    "tickers": "AAPL",
+    "dates": "2021-06-05",
+    "authors": " Someone",
+    "contents": "Financial report for AAPL containing financials, sentiment, and portfolio metrics",
+    "urls": "report/aapl-financial-report.html"
+  },
+  {
+    "tickers": "GOOG",
+    "dates": "2021-06-05",
+    "authors": " Someone",
+    "contents": "Financial report for GOOG containing financials, sentiment, and portfolio metrics",
+    "urls": "report/goog-financial-report.html"
+  },
+  {
+    "tickers": "NFLX",
+    "dates": "2021-06-01",
+    "authors": " Someone",
+    "contents": "Financial report for NFLX containing financials, sentiment, and portfolio metrics",
+    "urls": "report/nflx-financial-report.html"
+  },
+  {
+    "tickers": "AMZN",
+    "dates": "2021-06-01",
+    "authors": " Someone",
+    "contents": "Financial report for AMZN containing financials, sentiment, and portfolio metrics",
+    "urls": "report/amzn-financial-report.html"
+  }
+]
